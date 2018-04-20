@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Examen 01 Gerson Malca Bazan</title>
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="js/js.js">
+
+</head>
+
+<body>
+    <header>
+        <label class="lnr lnr-menu"></label>
+    </header>
+    <div class="menu">
+        <div class="line1" onclick="ocultar()"><label class=" lnr lnr-home"><font>Inicio</font></label></div>
+        <div class="line2"><label class=" lnr lnr-warning"><font>Acerca de </font></label></div>
+        <div class="line3"><label class=" lnr lnr-layers"><font>Caracteristicas </font></label></div>
+        <div class="line4" onclick="mostrar1()" ><label class=" lnr lnr-cart"><font>Ventas </font></label></div>
+    </div>
+
+
+
+
+
+    <div id="primario">
+
+        <img src="imagen/mouse.jpg" alt="" id="mouse" >
+        <h1 id="hm">Teclado </h1>
+         <img src="imagen/parlante.jpg" alt="" id="parlante">
+          <img src="imagen/pc.png" alt="" id="pc">
+           <img src="imagen/teclado.jpg" alt="" id="teclado">
+
+
+
+
+
+    <div id="secundario" >
+        <center>
+            <div>
+                <div>
+                    <div class="caj-sec">
+
+                        <div class="caj-esp"></div>
+                        <select name="productos" class="nav" id="prodd" onchange="ShowSelected()">
+<option>Productos</option>
+
+<option value="1001" id="1">Arroz</option>
+<option value="1002" id="2">Azucar</option>
+<option value="1003" id="3">Fideos</option>
+<option value="1004" id="4">Harina</option>
+<option value="1005" id="5">Papa</option>
+<option value="1006" id="6">Platano</option>
+<option value="1007" id="7">Agua Cielo</option>
+</select>
+                        <div class="caj-esp">
+
+                        </div>
+                        <div class="cajas">
+                            <div id="1a">Articulo:<input class="caj-art" type="text" id="art" readonly="readonly" placeholder="Nombre del Articulo..."></div>
+
+                            <div id="1p">Precio: <input class="caj-pre" type="text" id="pre" readonly="readonly" placeholder="Precio..."></div>
+
+                            <div id="2a"> Almacen: <input class="caj-alm" type="text" id="alm" readonly="readonly" placeholder="Disponible..."></div>
+
+                            <div id="1c"> Compra: <input class="caj-can" type="text" id="can" placeholder="Cantidad..."></div>
+
+
+
+
+
+                        </div>
+                        <div class="caj-btn">
+                            <section>
+                                <input class="btn" type="button" id="boton" onclick="registro()" value="ENVIAR">
+                                <input class="btn" type="button" id="btn-mod" onclick="modificar()" value="MODIFICAR">
+                                <input class="btn" type="button" id="boton3" onclick="totalF()" value="TERMINAR">
+                            </section>
+                        </div>
+                    </div>
+
+                    <div class="caj-trans"></div>
+                    <div id="tac">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>#</td>
+                                    <td>Articulo: </td>
+                                    <td>Precio:</td>
+                                    <td>Cantidad:</td>
+                                    <td>Total:</td>
+                                    <td>Accion:</td>
+                                </tr>
+                            </thead>
+
+                            <tbody id="tb">
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="caj-esp">
+
+                    </div>
+                    <div class="caj-final">
+                        <div class="caj-esp">
+
+                        </div>
+                        <label class="txt" for="">TOTAL:</label><input class="res" type="text" id="rp" value="" readonly="readonly">
+                    </div>
+                </div>
+            </div>
+            <center/>
+            <script type="text/javascript">
+                ocultar();
+
+                function ocultar() {
+                    var btn = document.getElementById("btn-mod");
+                    btn.style.display = "none";
+
+
+                }
+
+            </script>
+            <div/>
+
+            <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+            <script src="js/js.js"></script>
+            <body/>
+            <html/>

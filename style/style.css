@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background: #188fe6;
+    position: fixed;
+    z-index: 10;
+}
+
+/*------ imagen de menu -------- */ 
+.lnr-menu{
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    color: white;
+    transition: all 300ms;
+    padding: 10px;
+}
+
+#primario{
+    
+}
+
+/* slide*/
+
+
+
+
+/*Menu*/
+
+
+.menu{
+    width: 1518px;
+    height: 9vh;
+    background: #363636;
+    overflow: hidden;
+    position: fixed;
+    top: 50px;
+    transition: all 300ms;
+    z-index: 9;
+    overflow: auto;
+}
+
+.menu-show{
+    width: 140px;
+}
+
+.line1{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    padding: 10px;
+    transition: all 300ms;
+}
+.line1:hover{
+    left: 15px;
+    background: #188fe6; 
+}
+.line1 label{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.line1 font{
+    margin-left: 0px;
+    font-size: 20px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.line2{
+    position: absolute;
+    left: 200px;
+    top: 10px;
+    padding: 10px;
+    transition: all 300ms;
+}
+.line2:hover{
+    left: 189px;
+    background: #188fe6; 
+}
+.line2 label{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.line2 font{
+    margin-left: 0px;
+    font-size: 20px;
+    font-weight: 100;
+    cursor: pointer;
+}
+.line3{
+    position: absolute;
+    left: 390px;
+    top: 10px;
+    padding: 10px;
+    transition: all 300ms;
+}
+
+.line3:hover{
+    left: 380px;
+    background: #188fe6; 
+}
+.line3 label{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.line3 font{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+
+/**/
+.line4{
+    position: absolute;
+    left: 650px;
+    top: 10px;
+    padding: 10px;
+    transition: all 300ms;
+}
+
+.line4:hover{
+    left: 640px;
+    background: #188fe6; 
+}
+.line4 label{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.line4 font{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+
+
+/*Articulo*/
+
+
+
+
+.main-move{
+    left: 240px;
+}
+
+article h1{
+    font-size: 40px;
+}
+
+article p{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 100;
+}
+
+#secundario{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    background-color: #ffffff;
+  
+}
+
+#mouse{
+    position: absolute;
+    width: 300px;
+    top: 100px;
+    left: 30px;
+    
+}
+#parlante{
+    position: absolute;
+    width: 400px;
+    top: 150px;
+    left: 400px;
+    
+}
+#pc{
+    position: absolute;
+    width: 400px;
+    top: 150px;
+    left: 750px;
+    
+}
+
+#teclado{
+    position: absolute;
+    width: 400px;
+    top: 150px;
+    left: 1100px;
+    
+}
+
+
+
+
+
+
+/*BOTONES*/
+.nav{
+    background-color:rgba( 28, 195, 200, 0.594 );
+    width: 300px;
+    height: 30px;
+    font-family: cursive;
+    font-size: 20px;
+}
+.btn-1
+{
+	width: 25px;
+	background: url(../img/lapiz.png) center;
+}
+.btn-2
+{
+    width: 20px;
+	background: url(../img/borrar.png)center ;
+}
+.btn{
+	font-size: 15px;
+	font-family: "Times New Roman";
+	color: white;
+	border: 0px;
+	background: #000000;
+	border-radius: 1px;
+	height: 24px;
+}
+
+.btn:hover {
+ background: rgba(0, 0, 0, 0.5);
+ color: #ffffff;
+ box-shadow: inset 0 0 0 3px #ffffff;
+ transition: all 1s ease;
+}
+/* CAJA SECUNDARIA*/
+.caj-sec
+{
+	width: 1300px;
+	height: 380px;
+	font-family: "Times New Roman";
+	font-size: 18px;
+	color: white;
+	background-color: rgba( 2, 137, 222, 0.594 );
+
+}
+
+/* CAJA ESPACIO*/
+.caj-esp
+{
+	width: 100%;
+	height: 50px;
+	background-color: rgba(0, 255, 201, 0);
+}
+
+/* CAJA TRANSPARENTE*/
+.caj-trans
+{
+	width: 100%;
+	height: 50px;
+	background-color: rgba(200,100,50,0);
+}
+
+/* CAJAS */
+.caj
+{
+	width: 200px;
+	height: 25px;
+	font-size: 18px;
+	font-family: "Times New Roman";
+
+}
+.caj-nom
+{
+	width: 300px;
+	height: 50px;
+
+}
+.caj-ape
+{
+	width: 100%;
+	height: 50px;
+
+}
+.caj-dir
+{
+	width: 100%;
+	height: 50px;
+
+}
+.caj-btn
+{
+	width: 100%;
+	height: 50px;
+
+}
+
+/* PRINCIPALES */
+
+#tac{
+  background-color:  rgba( 44, 140, 184, 0.594 );
+}
+table {
+	border: 4px groove rgba(255, 255, 255, 1);
+	font-family: "Times New Roman";
+}
+
+td  {
+	border: 2px groove rgb(30, 189, 238);
+	padding: 6px;
+	color: rgb(255, 255, 255);
+	font-family: "Times New Roman";
+}
